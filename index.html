@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+ 
+<body>
+ 
+    <div class="kort">
+    <div class="topp">
+      <img id="plakat" src="" alt="Filmplakat">
+      <div>
+        <h2 id="tittel"></h2>
+        <p><b>År:</b> <span id="aar"></span></p>
+        <p><b>Regissør:</b> <span id="regissor"></span></p>
+        <p><b>Rollefigur:</b> <span id="rolle"></span></p>
+        <p><b>Tidspunkt:</b> <span id="tid"></span></p>
+      </div>
+    </div>
+ 
+    <p class="sitat"><i>«<span id="sitat-tekst"></span>»</i></p>
+ 
+    <video id="video" controls autoplay muted></video>
+ 
+    <button onclick="hentFilm()"> Ny film</button>
+  </div>
+ 
+ 
+ 
+    <script src="./index.js"></script>
+</body>
+</html>
